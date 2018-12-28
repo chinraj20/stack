@@ -1,0 +1,10 @@
+n=[]
+k=[]
+for i in range(3):
+    for j in range(3):
+       o=input()
+       n.append(o)
+    k.append(n)
+    n=[]
+for i in range(3):
+  print(k[i])
